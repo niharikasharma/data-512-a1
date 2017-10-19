@@ -1,5 +1,5 @@
 # data-512-a1
-# Niharika Sharma
+Niharika Sharma
 
 ## The goal of the project
 The goal of this project is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2017 following the best practices for open scientific research in designing and implementing our project, and make our project fully reproducible by others: from data collection to data analysis.
@@ -41,15 +41,16 @@ pageviews_mobile_web_201507_201709.json
 
 ### Final file is the en-wikipedia_traffic_200801-201709.csv file in data directory and the description of the values of all fields in the final data file is as follows:
 
-Column | Value | description
-year | YYYY | year on English Wikipedia from January 1 2008 through September 30 2017
-month | MM | month on English Wikipedia from January 1 2008 through September 30 2017
-pagecount_all_views | num_views | Total number of (desktop + mobile) views from pagecount API 
-pagecount_desktop_views | num_views | Total number of desktop views from pagecount API
-pagecount_mobile_views | num_views | Total number of mobile views from pagecount API
-pageview_all_views | num_views | Total number of (desktop + mobile) views from pageview API
-pageview_desktop_views | num_views |  Total number of desktop views from pageview API
-pageview_mobile_views | num_views |  Total number of mobile (web + app) views from pageview API
+Column | Value | description |
+| ------------- |:-------------:| -----:|
+year | YYYY | year on English Wikipedia from January 1 2008 through September 30 2017 |
+month | MM | month on English Wikipedia from January 1 2008 through September 30 2017 |
+pagecount_all_views | num_views | Total number of (desktop + mobile) views from pagecount API  |
+pagecount_desktop_views | num_views | Total number of desktop views from pagecount API |
+pagecount_mobile_views | num_views | Total number of mobile views from pagecount API |
+pageview_all_views | num_views | Total number of (desktop + mobile) views from pageview API |
+pageview_desktop_views | num_views |  Total number of desktop views from pageview API |
+pageview_mobile_views | num_views |  Total number of mobile (web + app) views from pageview API |
 
 
 ## Known issues or special considerations with the data 
